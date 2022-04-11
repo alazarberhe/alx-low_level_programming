@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-char i;
+int num;
 
-for (i = '0'; i < '9'; ++i)
-putchar(i);
+for (num = 0; num < 10; num++)
+printf("%d", num);
 
-putchar('\n');
+printf("\n");
 
 return (0);
 }
